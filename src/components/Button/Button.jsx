@@ -15,9 +15,9 @@ const ButtonIncreasingValue = () => {
   useEffect(() => {
     console.log('mounting phase');
   }, []);
-  useEffect(() => {
-    console.log('only once', value);
-  }, []);
+//   useEffect(() => {
+//     console.log('only once', value);
+//   }, []);
   useEffect(() => {
     console.log('many times', value);
   }, [value]);
