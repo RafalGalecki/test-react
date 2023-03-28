@@ -1,5 +1,6 @@
 // import { useState, useEffect } from 'react';
 import ButtonIncreasingValue from './Button/Button';
+import Modal from './Modal/Modal';
 
 export const App = () => {
   return (
@@ -14,8 +15,8 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      {/* <p>You clicked {value} times</p> */}
       <ButtonIncreasingValue />
+      <Modal />
     </div>
   );
 };
